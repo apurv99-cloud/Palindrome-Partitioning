@@ -1,6 +1,6 @@
-# 🧩 Palindrome Partitioning (Java - Backtracking)
+#  Palindrome Partitioning (Java - Backtracking)
 
-## 📌 Overview
+##  Overview
 
 This project implements the **Palindrome Partitioning** problem using  
 Recursion and Backtracking in Java.
@@ -12,7 +12,7 @@ The program returns **all possible palindrome partition combinations**.
 
 ---
 
-## 📝 Problem Statement
+##  Problem Statement
 
 Given a string `s`, partition `s` such that every substring of the partition
 is a palindrome.
@@ -24,7 +24,7 @@ Return all possible palindrome partitioning of `s`.
 
 ---
 
-## 🧠 Approach
+##  Approach
 
 This solution uses:
 
@@ -33,7 +33,7 @@ This solution uses:
 - Partition Logic
 - Two Pointer Technique (for palindrome checking)
 
-### 🔹 Algorithm Steps
+###  Algorithm Steps
 
 1. Start from index `0`
 2. Try every possible substring from current index
@@ -46,7 +46,7 @@ This solution uses:
 
 ---
 
-## 💻 Implementation
+##  Implementation
 
 ```java
 import java.util.*;
